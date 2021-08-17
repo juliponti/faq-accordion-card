@@ -1,0 +1,107 @@
+@import "configurations";
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, $bg-color-1, $bg-color-2);
+}
+
+.main {
+  @include flexCenter;
+  width: 100%;
+  height: 100%;
+}
+
+.card__container {
+  width: 65%;
+  height: 80%;
+  background-color: $card-color;
+  border-radius: 10px;
+
+  @include flexCenter;
+}
+
+.card-img {
+  @include flexCenter;
+  width: 120%;
+  height: 100%;
+
+  background-image: url("../../images/bg-pattern-desktop.svg");
+
+  background-position: -560px -289px;
+  background-repeat: no-repeat;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.woman-img {
+  position: relative;
+  left: -66px;
+  bottom: -7px;
+}
+
+.cube__container {
+  width: 0%;
+}
+
+.cube-img {
+  position: relative;
+  left: -94px;
+  z-index: 2;
+  bottom: -43px;
+}
+
+.cube-img-hover {
+  left: -115px;
+  transition: $transition;
+}
+
+.card-faq {
+  height: 90%;
+  width: 100%;
+  @include flexCenter(column, center, flex-start);
+  padding: 10px;
+}
+
+.faq-title {
+  font-size: map-get($font-sizes, big);
+  color: $primary-color;
+  font-weight: map-get($font-weights, bold);
+  margin: 15px 0;
+}
+
+.faq-content {
+  font-size: map-get($font-sizes, small);
+  height: 65%;
+  width: 100%;
+}
+
+.faq-questions-div {
+  @include flexCenter(row, space-between);
+  height: 20%;
+  width: 82%;
+  border-bottom: solid 2px $div-color;
+}
+
+.faq-questions {
+  color: $font-color-1;
+  font-weight: map-get($font-weights, regular);
+  &:hover {
+    color: $secondary-color;
+    transition: $transition;
+    cursor: pointer;
+  }
+}
+
+.faq-arrow {
+  cursor: pointer;
+}
+
+.faq-arrow-up {
+  transform: rotate(180deg);
+  transition: $transition;
+}
+.faq-answers {
+  display: none;
+}

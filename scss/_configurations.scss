@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+// Colours
+
+$primary-color: hsl(238, 29%, 16%);
+$secondary-color: hsl(14, 88%, 65%);
+
+$bg-color-1: hsl(273, 75%, 66%);
+$bg-color-2: hsl(240, 73%, 65%);
+
+$font-color-1: hsl(237, 12%, 33%);
+$font-color-2: hsl(240, 6%, 50%);
+
+$div-color: hsl(240, 5%, 91%);
+$card-color: #fff;
+
+// Fonts
+
+$font-sizes: (
+  "small": 0.75rem,
+  "big": 2rem,
+);
+
+$font-weights: (
+  "regular": 400,
+  "bold": 700,
+);
+
+// Width
+
+$desktop-wd: 1440px;
+$mobile-wd: 375px;
+
+$transition: all 0.3s ease-in-out;
+
+@mixin flexCenter($direction: row, $justify: center, $align: center) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
