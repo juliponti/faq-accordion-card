@@ -79,7 +79,7 @@ body {
 
 .faq-questions-div {
   @include flexCenter(row, space-between);
-  height: 20%;
+  height: 50px;
   width: 82%;
   border-bottom: solid 2px $div-color;
 }
