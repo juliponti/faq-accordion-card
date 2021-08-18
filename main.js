@@ -19,12 +19,12 @@ const arrows = document.getElementsByClassName("faq-arrow");
 
 for (item of arrows) {
   item.addEventListener("click", arrowUp);
-  console.log(item);
 }
 
 function arrowUp(event) {
   const element = event.target;
   const parent = element.parentElement;
+  const answerDiv = parent.nextElementSibling.firstElementChild;
   element.classList.toggle("faq-arrow-up");
-  parent.nextElementSibling.firstElementChild.classList.toggle("faq-answers");
+  answerDiv.classList.toggle("faq-answers");
 }
