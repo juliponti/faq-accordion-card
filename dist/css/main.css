@@ -160,6 +160,28 @@ body {
   cursor: pointer;
 }
 
+.faq-questions-on {
+  font-weight: 700;
+}
+
+.faq-questions-div-on {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 50px;
+  width: 82%;
+}
+
 .faq-arrow {
   cursor: pointer;
 }
@@ -173,5 +195,12 @@ body {
 
 .faq-answers {
   display: none;
+}
+
+.faq-answers-on {
+  width: 82%;
+  height: 45px;
+  color: #787887;
+  border-bottom: solid 2px #e7e7e9;
 }
 /*# sourceMappingURL=main.css.map */

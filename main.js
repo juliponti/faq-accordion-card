@@ -27,4 +27,9 @@ function arrowUp(event) {
   const answerDiv = parent.nextElementSibling.firstElementChild;
   element.classList.toggle("faq-arrow-up");
   answerDiv.classList.toggle("faq-answers");
+  answerDiv.classList.toggle("faq-answers-on");
+  parent.classList.toggle("faq-questions-div");
+  parent.classList.toggle("faq-questions-div-on");
+  parent.firstElementChild.classList.toggle("faq-questions");
+  parent.firstElementChild.classList.toggle("faq-questions-on");
 }
