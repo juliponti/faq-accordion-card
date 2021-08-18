@@ -15,16 +15,16 @@ function moveCubeOff() {
   cube.classList.remove("cube-img-hover");
 }
 
-const arrow = document.getElementsByClassName("faq-arrow");
+const arrows = document.getElementsByClassName("faq-arrow");
 
-for (item of arrow) {
-  item.addEventListener("onclick", arrowUp);
+for (item of arrows) {
+  item.addEventListener("click", arrowUp);
   console.log(item);
 }
 
-function arrowUp() {
-  const item = document.getElementsByClassName("faq-arrow").item;
-  const parent = item.parent;
-  item.classList.toggle("faq-arrow-up");
-  parent.nextSibling.firstChild.classList.toggle("faq-answers");
+function arrowUp(event) {
+  const element = event.target;
+  const parent = element.parentElement;
+  element.classList.toggle("faq-arrow-up");
+  parent.nextElementSibling.firstElementChild.classList.toggle("faq-answers");
 }
