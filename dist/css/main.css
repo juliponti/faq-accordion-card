@@ -34,6 +34,8 @@ body {
 .card__container {
   width: 65%;
   height: 80%;
+  max-width: 935px;
+  max-height: 515px;
   background-color: #fff;
   border-radius: 10px;
   display: -webkit-box;
@@ -66,7 +68,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row;
   width: 120%;
-  height: 100%;
+  height: 513px;
   background-image: url("../../images/bg-pattern-desktop.svg");
   background-position: -560px -289px;
   background-repeat: no-repeat;
@@ -125,7 +127,7 @@ body {
 
 .faq-content {
   font-size: 0.75rem;
-  height: 65%;
+  height: 73%;
   width: 100%;
 }
 
@@ -143,7 +145,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  height: 50px;
+  height: 60px;
   width: 82%;
   border-bottom: solid 2px #e7e7e9;
 }
