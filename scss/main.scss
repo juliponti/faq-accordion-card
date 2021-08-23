@@ -121,7 +121,11 @@ body {
 
 .faq-answers-on {
   width: 82%;
-  height: 45px;
+  height: 50px;
   color: $font-color-2;
   border-bottom: solid 2px $div-color;
+}
+
+@media screen and (max-width: 375px) {
+  
 }
