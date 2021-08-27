@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [https://www.frontendmentor.io/solutions/mobile-first-site-using-sass-and-bem-nPUhL4-lR](https://www.frontendmentor.io/solutions/mobile-first-site-using-sass-and-bem-nPUhL4-lR)
+- Live Site URL: [https://juliponti.github.io/faq-accordion-card/](https://juliponti.github.io/faq-accordion-card/)
 
 ## My process
 
