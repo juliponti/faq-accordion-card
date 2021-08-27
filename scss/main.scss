@@ -93,8 +93,14 @@ body {
 .faq-questions-div {
   @include flexCenter(row, space-between);
   height: 60px;
-  width: 84%;
+  width: 90%;
   border-bottom: solid 2px $div-color;
+}
+
+.faq-questions-div-on {
+  height: 50px;
+  width: 90%;
+  border-bottom: none;
 }
 
 .faq-questions {
@@ -109,12 +115,7 @@ body {
 
 .faq-questions-on {
   font-weight: map-get($font-weights, bold);
-}
-
-.faq-questions-div-on {
-  @include flexCenter(row, space-between);
-  height: 50px;
-  width: 82%;
+  color: #000000;
 }
 
 .faq-arrow {
@@ -125,19 +126,17 @@ body {
   transform: rotate(180deg);
   transition: $transition;
 }
-.faq-answers {
+
+.faq-answers-div {
   display: none;
 }
 
 .faq-answers-on {
-  width: 82%;
+  display: block;
+  width: 90%;
   height: 50px;
   color: $font-color-2;
   border-bottom: solid 2px $div-color;
-}
-
-.active {
-  height: fit-content;
 }
 
 @media screen and (max-width: 575px) {
