@@ -138,8 +138,17 @@ body {
   color: $font-color-2;
   border-bottom: solid 2px $div-color;
 }
+@media screen and (max-width: 890px) {
+  .card__container {
+    width: 80%;
+  }
 
-@media screen and (max-width: 575px) {
+  .faq-answers-on {
+    height: 67px;
+  }
+}
+
+@media screen and (max-width: 675px) {
   body {
     height: 100%;
   }
@@ -164,11 +173,6 @@ body {
     &-mobile {
       @include flexCenter(column, center, center);
       height: 119px;
-
-      background-image: url("../../images/bg-pattern-mobile.svg");
-      width: 100%;
-      background-repeat: no-repeat;
-      background-position: 43px 10px;
     }
   }
 
@@ -216,6 +220,9 @@ body {
 
 @media screen and (max-width: 470px) {
   .card-img-mobile {
+    background-image: url("../../images/bg-pattern-mobile.svg");
+    width: 100%;
+    background-repeat: no-repeat;
     background-position: 20px 10px;
   }
 }

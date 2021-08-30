@@ -204,7 +204,16 @@ body {
   border-bottom: solid 2px #e7e7e9;
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 890px) {
+  .card__container {
+    width: 80%;
+  }
+  .faq-answers-on {
+    height: 67px;
+  }
+}
+
+@media screen and (max-width: 675px) {
   body {
     height: 100%;
   }
@@ -249,10 +258,6 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 119px;
-    background-image: url("../../images/bg-pattern-mobile.svg");
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: 43px 10px;
   }
   .woman-img-desktop {
     display: none;
@@ -289,6 +294,9 @@ body {
 
 @media screen and (max-width: 470px) {
   .card-img-mobile {
+    background-image: url("../../images/bg-pattern-mobile.svg");
+    width: 100%;
+    background-repeat: no-repeat;
     background-position: 20px 10px;
   }
 }
