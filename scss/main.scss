@@ -106,6 +106,7 @@ body {
 .faq-questions {
   color: $font-color-1;
   font-weight: map-get($font-weights, regular);
+  font-size: map-get($font-sizes, regular);
   &:hover {
     color: $secondary-color;
     transition: $transition;
@@ -115,6 +116,7 @@ body {
 
 .faq-questions-on {
   font-weight: map-get($font-weights, bold);
+  font-size: map-get($font-sizes, regular);
   color: #000000;
 }
 

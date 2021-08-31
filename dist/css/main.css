@@ -167,6 +167,7 @@ body {
 .faq-questions {
   color: #4a4b5e;
   font-weight: 400;
+  font-size: 0.9rem;
 }
 
 .faq-questions:hover {
@@ -178,6 +179,7 @@ body {
 
 .faq-questions-on {
   font-weight: 700;
+  font-size: 0.9rem;
   color: #000000;
 }
 
